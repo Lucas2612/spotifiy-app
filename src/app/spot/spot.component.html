@@ -1,0 +1,29 @@
+<div class='container'>
+  Spotify app works !!!
+</div>
+
+<div class='container'>
+
+
+  <div class="container">
+    <div class="row">Name: {{ getUser().displayName }} </div>
+    <div class="row">Current Track: {{ getUser().currentTrack }} </div>
+    <div class="row"><button class="btn btn-primary" (click)="nextTrack()">Next Track</button> </div>
+
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Playlist</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pl of getUser().playlists">
+        <td>{{ pl }}</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</div>
