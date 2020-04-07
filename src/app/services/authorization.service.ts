@@ -17,7 +17,7 @@ export class AuthorizationService  {
   scopes = 'user-read-currently-playing user-read-private' +
             ' playlist-read-private user-library-read' +
             ' user-read-playback-state user-modify-playback-state';
-  state = 'state123';
+  state = '123';
 
   USERS_URL = 'https://api.spotify.com/v1/users';
   USER_URL = 'https://api.spotify.com/v1/me';
