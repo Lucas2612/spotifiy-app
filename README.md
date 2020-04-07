@@ -1,3 +1,6 @@
+# Use your client id
+In authorization.service.ts use your client Id. Get in Spotify Developer page
+
 # SpotifyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
